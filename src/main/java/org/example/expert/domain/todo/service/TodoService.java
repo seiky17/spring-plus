@@ -17,7 +17,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Service
@@ -52,7 +51,6 @@ public class TodoService {
 
     public Page<TodoResponse> getTodos(String weather, LocalDateTime startDate, LocalDateTime endDate, int page, int size) {
         Pageable pageable = PageRequest.of(page - 1, size);
-        System.out.println(startDate);
 
         Page<Todo> todos = todoRepository.findAllByWeatherAndStartDateAndEndDateOrderByModifiedAtDesc(weather, startDate, endDate, pageable);
 
