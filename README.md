@@ -118,6 +118,6 @@
   &emsp; - 그 외 로그에 들어가는 내용은 원하는 정보를 자유롭게 넣어주세요.
 </details>
 
-## 트러블슈팅
+## ✏️ 트러블슈팅
 <a href="https://devlily-1.tistory.com/41" target="_blank">
 <img src="https://github.com/user-attachments/assets/bf360d08-77b9-4cef-aee4-4f6828be7f51" width="50" height="50"/>
